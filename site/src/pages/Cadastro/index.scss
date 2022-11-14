@@ -1,0 +1,38 @@
+.main-cadastro {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    .section-cadastro-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        background-color: black;
+        height: 38.1em;
+        width: 300px;
+    }
+
+    .div-logo {
+        margin-bottom: -2em;
+        margin-top: 2em;
+    }
+
+    .div-melhor-rede {
+        margin-bottom: 4em;
+    }
+
+    .div-bemvindo {
+        margin-bottom: -2em;
+    }
+
+    .div-logar-p {
+        margin-bottom: 3em;
+    }
+
+    .buttom-entrar {
+        text-decoration: none;
+        padding: 0.5em 2.5em;
+        border-radius: 25px;
+    }
+}
