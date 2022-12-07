@@ -34,5 +34,42 @@
         text-decoration: none;
         padding: 0.5em 2.5em;
         border-radius: 25px;
+        border-color: white;
+        background-color: black;
+        color: white;
+        border: 1.5px solid white;
+    }
+
+    .section-cadastro-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .div-crie-conta {
+        padding-top: 2em;
+    }
+
+    .div-inputs {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3em;
+    }
+
+    input {
+        padding: 10px 15em 10px 10px;
+        margin-bottom: 1.5em;
+        border: none;
+        background-color: #f5f2f2;
+    }
+
+    .button-cadastrar {
+        margin-top: 4em;
+        padding: 1em 3.5em;
+        border-radius: 25px;
+        border: none;
+        background-color: black;
+        color: white;
     }
 }

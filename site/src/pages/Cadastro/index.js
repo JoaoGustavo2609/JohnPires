@@ -36,20 +36,20 @@ export default function CadastroUsu() {
                 </div>
             </section>
 
-            <section>
-                <div>
+            <section className='section-cadastro-2'>
+                <div className='div-crie-conta'>
                     <h1>
                         Crie sua conta
                     </h1>
                 </div>
-                <div>
+                <div className='div-inputs'>
                     <input type='text' placeholder="Nome"></input>
                     <input type='text' placeholder="Email"></input>
                     <input type='password' placeholder="Senha"></input>
                 </div>
 
-                <div>
-                    <button>
+                <div className='div-button-cadastrar'>
+                    <button className='button-cadastrar'>
                         Cadastrar
                     </button>
                 </div>
